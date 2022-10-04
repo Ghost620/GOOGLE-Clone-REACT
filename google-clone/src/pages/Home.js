@@ -27,6 +27,8 @@ const Home = () => {
 
       <div className='home_body'>
 
+        <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/220px-Google_2015_logo.svg.png' alt='' />
+        
       </div>
 
     </div>
