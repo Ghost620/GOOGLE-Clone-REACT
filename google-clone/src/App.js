@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './pages/Home'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Search from './components/Search';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
 
           <Route path='/' element={<><Home /></>} />
 
-          <Route path='/search' element={<>SEARCh</>} />
+          <Route path='/search' element={<><Search hideButtons/></>} />
 
         </Routes>
         
